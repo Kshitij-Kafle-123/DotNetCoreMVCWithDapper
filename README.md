@@ -19,8 +19,8 @@ GO
 ALTER PROCEDURE [dbo].[Usp_Insert]
 
   @Name varchar(50),
-	@Quantity int,
-	@Color varchar(50),
+  @Quantity int,
+  @Color varchar(50),
   @Price decimal(18,2),
   @ProductCode varchar(50)
 
