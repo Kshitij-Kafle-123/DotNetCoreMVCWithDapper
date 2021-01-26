@@ -1,6 +1,5 @@
 # DotNetCoreMVCWithDapper
-## This project is made with razor pages and html/css/Javascript along with ASP_Tag_helper as a front end technologies.
-## Database Query are written in Stored procedure and use them  in Backend with Dapper.
+
 
 
 
@@ -15,11 +14,8 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
--- =============================================
--- Author:		<Kshitij kafle>
--- Create date: <1-25-2021>
--- Description:	<####>
--- =============================================
+
+
 ALTER PROCEDURE [dbo].[Usp_Insert]
 
   @Name varchar(50),
