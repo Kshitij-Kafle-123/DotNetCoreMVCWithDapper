@@ -1,0 +1,102 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+    background-color: #23415c;
+    padding: 1% 0;
+    font-size: 0.5cm;
+}
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+.navbar-default .navbar-nav li a{
+    color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+    color: #FFF;
+}
+#home{
+    background: url(main.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFF;
+}
+
+.padding{
+    padding: 40px 0;
+    margin: 40px;
+    
+}
+.row{
+    align-content: center;
+    width: 100%;
+}
+
+.padding img{
+    width: 80%;
+   
+    
+}
+.foot img{
+width: 3%;
+}
+.class{
+   
+    margin: 80px;
+   height: 0px;
+   margin-bottom: 0px;
+   
+}
+.class i{
+    font-size: 15px;
+}
+#fixed{
+  background: url(../img/main.jpg) no-repeat center center fixed; 
+  display: table;
+  position: relative;
+  height: 60%;
+  width: 100%;
+  background-size: cover; 
+}
+footer{
+    width: 100%;
+    background-color: #23415c;
+    padding: 5% 5% 10%;
+    color: #FFF;
+}
+.fa{
+   padding: 15px;
+   font-size: 25px;
+   color: #FFF; 
+}
+.fa:hover{
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 200px;
+}
+@media (max-width:768px){
+    .landing-text h1{
+        font-size: 300%;
+    }
+    .fa{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .icon{
+        padding-top: 5%;
+        max-width: 100px;
+    }
+}
